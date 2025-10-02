@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JamBuddy</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <style>
+    #userAnswer {
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>JamBuddy</h1>
+  <div id="randomNotesContainer">
+    <button id="randomNotesButton">Get random notes</button>
+    <button id="giveUpButton">Give up</button>
+    <button id="restartButton">Restart</button>
+    <p id="randomNotes"></p>
+  </div>
+  <div id="answerContainer">
+    <input type="number" id="userAnswer" placeholder="Enter your answer" min="0" max="11">
+    <button id="submitAnswerButton">Submit answer</button>
+    <p id="answerMessage"></p>
+    <p id="streakDisplay"></p>
+  </div>
+  <div id="explanation"></div>
+  <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

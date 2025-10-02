@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: black;
+  color: red;
+}
+
+h1 {
+  color: red;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#randomNotesContainer,
+#answerContainer {
+  margin-bottom: 20px;
+}
+
+#answerMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.highlight-green {
+  color: #4caf50;
+}
+
+.note-bubble {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.highlight-green {
+  color: #4caf50;
+  animation: none; 
+}
